@@ -56,7 +56,6 @@
 
 - (void)setAudioOnly:(BOOL)audioOnly;
 - (void)setAudioMuted:(BOOL)audioMuted;
-- (void)p2pEnabled:(BOOL)p2pEnabled;
 - (void)setVideoMuted:(BOOL)videoMuted;
 - (void)setCallHandle:(NSString *_Nonnull)callHandle;
 - (void)setCallUUID:(NSUUID *_Nonnull)callUUID;

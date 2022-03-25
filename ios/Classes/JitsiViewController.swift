@@ -76,7 +76,7 @@ class JitsiViewController: UIViewController {
             builder.setAudioMuted(self.audioMuted ?? false)
             builder.setVideoMuted(self.videoMuted ?? false)
             builder.setAudioOnly(false)
-            builder.p2pEnabled(false)
+            // builder.p2pEnabled(false)
             builder.token = self.token
             
             self.featureFlags?.forEach{ key,value in
